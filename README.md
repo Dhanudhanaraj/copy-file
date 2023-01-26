@@ -7,20 +7,43 @@ Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
 
+Create two txt file.A file which has content [lines.txt] to be copied to the empty [text.txt]file.
+
 ### Step 2: 
+
+Using write() function to copy the content from line.txt to empty file,text.txt
  
 ### Step 3: 
 
-### Step 4:  
+Save and run the python program in terminal.
+
+### Step 4:
+
+The text from the lines.txt file is copied to the empty file text.txt.
+
 
 ### Step 5: 
 
+Then the text is shown in empty file text.txt.
+
+
 ### Step 6: 
 
+Result is obtained.
+
 ## PROGRAM:
+```
+## Developed by:D.Dhanumalya.
+## Reference No:22008657
+with open('python.py','r') as file1:
+    with open('text.txt','w') as file2:
+        for line in file1:
+            file2.write(line)
+```
 
 ### OUTPUT:
-
+![output](./experi2.png)
+![output](./experii2.png)
 
 
 ## RESULT:
